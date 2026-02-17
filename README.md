@@ -18,17 +18,16 @@ A simple, cross-platform expense tracker that works on macOS/Linux terminals and
 
 **macOS/Linux:**
 ```bash
-mkdir -p ~/.local/bin && curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/expense_tracker.py -o ~/.local/bin/expi && chmod +x ~/.local/bin/expi && echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && export PATH="$HOME/.local/bin:$PATH"
+mkdir -p ~/.local/bin && curl -fsSL https://raw.githubusercontent.com/Tushar04-Master/Expi/main/expense_tracker.py -o ~/.local/bin/expi && chmod +x ~/.local/bin/expi && echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && export PATH="$HOME/.local/bin:$PATH"
 ```
 
 **Termux/Android & Ubuntu on Android:**
 ```bash
-mkdir -p ~/.local/bin && curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/expense_tracker.py -o ~/.local/bin/expi && chmod +x ~/.local/bin/expi && echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && export PATH="$HOME/.local/bin:$PATH"
+mkdir -p ~/.local/bin && curl -fsSL https://raw.githubusercontent.com/Tushar04-Master/Expi/main/expense_tracker.py -o ~/.local/bin/expi && chmod +x ~/.local/bin/expi && echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && export PATH="$HOME/.local/bin:$PATH"
 ```
 
 After installation, simply type `expi` to start the tracker!
 
-> **Note:** Replace `YOUR_USERNAME` and `YOUR_REPO` with your actual GitHub username and repository name.
 
 ### Manual Installation
 
