@@ -14,7 +14,25 @@ A simple, cross-platform expense tracker that works on macOS/Linux terminals and
 
 ## Installation
 
-### On macOS/Linux
+### Quick Install (One-liner)
+
+**macOS/Linux:**
+```bash
+mkdir -p ~/.local/bin && curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/expense_tracker.py -o ~/.local/bin/expi && chmod +x ~/.local/bin/expi && echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && export PATH="$HOME/.local/bin:$PATH"
+```
+
+**Termux/Android & Ubuntu on Android:**
+```bash
+mkdir -p ~/.local/bin && curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/expense_tracker.py -o ~/.local/bin/expi && chmod +x ~/.local/bin/expi && echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && export PATH="$HOME/.local/bin:$PATH"
+```
+
+After installation, simply type `expi` to start the tracker!
+
+> **Note:** Replace `YOUR_USERNAME` and `YOUR_REPO` with your actual GitHub username and repository name.
+
+### Manual Installation
+
+#### On macOS/Linux
 
 1. Clone or download this repository
 2. Make the script executable:
@@ -26,7 +44,7 @@ A simple, cross-platform expense tracker that works on macOS/Linux terminals and
    ./expense_tracker.py
    ```
 
-### On Termux/Android
+#### On Termux/Android
 
 1. Install Termux from F-Droid or Play Store
 2. Open Termux and run:
